@@ -1,4 +1,4 @@
-package com.hellogwt.client.service;
+package com.hellogwt.client.gwt_rpc;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.hellogwt.shared.domain.Greeting;

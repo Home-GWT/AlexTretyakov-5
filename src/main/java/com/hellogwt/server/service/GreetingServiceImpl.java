@@ -1,6 +1,6 @@
 package com.hellogwt.server.service;
 
-import com.hellogwt.client.service.GreetingService;
+import com.hellogwt.client.gwt_rpc.GreetingService;
 import com.hellogwt.server.persistence.GreetingMapper;
 import com.hellogwt.shared.domain.Greeting;
 import org.springframework.beans.factory.annotation.Autowired;

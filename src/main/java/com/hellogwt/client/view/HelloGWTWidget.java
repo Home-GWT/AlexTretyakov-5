@@ -1,4 +1,4 @@
-package com.hellogwt.client;
+package com.hellogwt.client.view;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
@@ -8,8 +8,8 @@ import com.google.gwt.uibinder.client.UiHandler;
 import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.*;
-import com.hellogwt.client.service.GreetingService;
-import com.hellogwt.client.service.GreetingServiceAsync;
+import com.hellogwt.client.gwt_rpc.GreetingService;
+import com.hellogwt.client.gwt_rpc.GreetingServiceAsync;
 import com.hellogwt.shared.domain.Greeting;
 
 import java.util.List;

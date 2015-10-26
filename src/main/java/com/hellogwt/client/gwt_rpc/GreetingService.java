@@ -1,4 +1,4 @@
-package com.hellogwt.client.service;
+package com.hellogwt.client.gwt_rpc;
 
 import com.google.gwt.user.client.rpc.RemoteService;
 import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
