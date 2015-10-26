@@ -107,15 +107,15 @@ public class HelloGWTWidget extends Composite {
 
     private void fillGreetingsTable(List<Greeting> greetings) {
         greetingsFlexTable.removeAllRows();
-
         greetingsFlexTable.setText(0, 0, "Author");
-        greetingsFlexTable.setText(0, 1, "Text");
+        greetingsFlexTable.setText(0, 1, ": ");
+        greetingsFlexTable.setText(0, 2, "Text");
 
         for (Greeting greeting : greetings) {
             int row = greetingsFlexTable.getRowCount();
-
             greetingsFlexTable.setText(row, 0, greeting.getAuthor());
-            greetingsFlexTable.setText(row, 1, greeting.getText());
+            greetingsFlexTable.setText(row, 1, ": ");
+            greetingsFlexTable.setText(row, 2, greeting.getText());
         }
     }
 }
